@@ -6,6 +6,7 @@ import Section3 from '../../Components/Section3/Section3'
 import Skill from '../../Components/Skill/Skill'
 import Section6 from '../../Components/Section6/Section6'
 import Section5 from '../../Components/Section5/Section5'
+import Team from '../../Components/Team/Team'
 const Landing = () => {
   return (
     <div className="Landing-container">
@@ -15,6 +16,7 @@ const Landing = () => {
       <Skill/>
       <Section5/>
       <Section6/>
+      <Team/>
     </div>
   )
 }

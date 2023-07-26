@@ -9,15 +9,16 @@
 }
 
 .section1-content {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 8rem;
-  margin: 5rem 1rem;
+  margin: 5rem 0 0 10%;
   padding: 1rem;
   color: white;
+  /* border: 1px solid green; */
 }
 
 .section1-content h2 {
@@ -40,13 +41,14 @@
 }
 
 .section1-button {
-  width: 100%;
+  width: 50%;
   height: 10rem;
   margin: 11rem 0  0 0;
   padding: 1rem 6rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  /* border: 1px solid green; */
 }
 
 .section1-button button {
@@ -63,6 +65,7 @@
   padding: 0.5rem;
   width: 15rem;
   text-decoration: none;
+  /* border: 1px solid green; */
 }
 
 .section1-button button a {
