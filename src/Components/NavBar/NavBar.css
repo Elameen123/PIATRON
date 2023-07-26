@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Instrument+Sans&family=Lexend+Exa:wght@500&display=swap');
+
+.nav-container {
+  width: 35%;
+  height: 3rem;
+  padding: 0.5rem;
+  margin: 6rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav-container a {
+  text-decoration: none;
+  margin: 0.25rem;
+  color: white;
+  font-family: 'Inria Serif', serif;
+  line-height: 28.78px;
+  font-size:1.5rem ;
+}
+
+.nav-container a:first-child {
+  text-decoration: underline 3px solid white;
+  text-underline-offset: 10px;
+}
