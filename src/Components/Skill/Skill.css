@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@500&display=swap');
+
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  width:100% ;
+  height: 30rem;
+  background-color: #F5F5F5;
+  margin: 1rem 0;
+}
+
+.skill-content {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 0;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  background-color: #F5F5F5;
+}
+
+.skill-container h2 {
+  color: navy;
+  text-align: center;
+  margin: 1.5rem;
+  font-style: italic;
+  font-size: 2.5rem;
+  font-family: 'Lexend Exa', sans-serif;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  /* padding: 1.5rem; */
+  margin-bottom: 1rem;
+  /* border: 1px solid red; */
+}
+
+.skill img {
+  width: 12rem;
+  height: 10rem;
+  padding: 0 0rem;
+}
+
+.skill p {
+  color: #000;
+  text-align: center;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 2.1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+@media (max-width: 768px) {
+  /* .skill-container, .skill-content {
+    height: auto;
+  } */
+  .skill-container h2{
+    font-size: 2rem;
+    margin: 0.75rem 0;
+  }
+
+  .skill-container {
+    margin: 0 0 4rem 0;
+  }
+
+  .skill-content {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    border: 1px solid red;
+    align-items: center;
+    margin: 0.75rem auto;
+  }
+
+  .skill {
+    width: 50%;
+    /* flex-wrap: wrap;
+    flex-flow: wrap; */
+    height: auto;
+    border: 1px solid black;
+  }
+
+  .skill img {
+    width: 6.5rem;
+    height: 5rem;
+    margin: 1rem 0;
+  }
+
+  .skill p {
+    font-size: 1.5rem;
+  }
+}
