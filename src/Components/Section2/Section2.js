@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section2.css'
-import Engineer from '../../img/engineer1.png'
+import Engineer from '../../img/group.jpg'
 import PATRION from '../PATRION-TEXT/Patrion'
 
 const Section2 = () => {

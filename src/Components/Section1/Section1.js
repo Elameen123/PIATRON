@@ -1,10 +1,15 @@
 import React from 'react'
 import './Section1.css'
 import NavBar from '../NavBar/NavBar'
+import logo from '../../img/logo.png'
 const Section1 = () => {
   return (
     <div className='section1-container'>
       <NavBar/>
+     {/* <div className='logo-container'>
+     <img src={logo} alt='logo'/>
+      <NavBar/>
+     </div> */}
 
       <div className='section1-content'>
         <h2>

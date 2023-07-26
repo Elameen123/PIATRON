@@ -1,6 +1,9 @@
 import React from 'react'
 import './Team.css'
-import Alhameen from '../../img/Alhameen.jpg'
+import Alhameen from '../../img/elameen.jpg'
+import Pius from '../../img/pius.jpg'
+import Igwe from '../../img/Igwe.jpg'
+
 
 const Team = () => {
   return (
@@ -11,21 +14,21 @@ const Team = () => {
 
       <div className='Team-members'>
         <div className='Team'>
-          <img src={Alhameen} alt='Pius'/>
+          <img src={Pius} alt='Pius'/>
 
           <h3>
             Pius Ndukwu
           </h3>
 
           <p>
-            Market Research Analyst
+            Market Analyst
             <br/>
             Embedded Systems Developer
           </p>
         </div>
 
         <div className='Team'>
-          <img src={Alhameen} alt='Igwe'/>
+          <img src={Igwe} alt='Igwe'/>
           
           <h3>
             Onyedika Igwe 
